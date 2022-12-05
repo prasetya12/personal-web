@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .App-logo {
@@ -35,4 +37,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.carousel{
+        background-image:url(img/caraousel.svg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.text-carousel{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 700px;
+  flex-direction: column;
+
+
+}
+
+.text-title{
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.education-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+
+.left-contain{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
